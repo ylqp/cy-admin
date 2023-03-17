@@ -16,7 +16,7 @@ export default defineConfig({
     // 代理配置
     proxy: {
       "/nxf": {
-        target: "http://127.0.0.1:3000",
+        target: "http://127.0.0.1:3000/api",
         rewrite: (path) => path.replace(/^\/nxf/, ""),
       },
       "/dq": {

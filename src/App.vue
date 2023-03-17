@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <router-link class="home" to="/">首页</router-link>
+  <!-- <router-link class="home" to="/">首页</router-link> -->
   <RouterView />
 </template>
 

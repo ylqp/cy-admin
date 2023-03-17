@@ -1,6 +1,6 @@
 import axios from "axios"
-
 const request = axios.create({
+  withCredentials: true,
   baseURL: "/",
   timeout: 10000,
 })
